@@ -15,64 +15,81 @@
 /* header starts here*/
   header{
     padding: 10px 40px 20px 0;
-    justify-content: space-between;
+    
     background-color: rgb(33, 32, 44);
     display: flex;
-    flex-wrap: wrap;
+    padding-top:50px;
+    
     width: 100%;
     height: 200px;
+
 }
  
 li{    /*links position in navigation position*/
-    display: inline-block;
-    padding: 0px 30px;
+    
+   
+   display: inline;
+   margin-left: 150px;
+   
+   
+
+   
 }
 
  a:hover{
 color:  rgb(197, 186, 84);
 transition: 0.20s;
 
+
+
 }
-header nav ul{
-color: cadetblue;
-    margin-left: 0px  0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+ a{
+    
+    width:800px;
+
+    
+    
+    
+    
+    
     list-style: none;
+    
+    
+    
+    font-size: 1.5vw ;
     text-decoration: underline;
-   text-decoration-thickness: 5px;
-}
+    text-decoration-thickness: 5px;
+     color: cadetblue;
+    
+    
+    
+    font-weight: lighter;
+
+}  
 header h1{
     border-style: solid;
-    padding: 0px 20px 25px 0px;
+    
     font-weight: bold;
     font-size:  55px;
-    margin-top: 50;
+    margin-top: 0;
     color: rgb(29, 29, 54);
     text-decoration: none;
     background-color: aqua;
 }
 
-header li a {
-    margin: 0 15px;
-    font-weight: lighter;
-    font-size: 1.5vw ;
-  }
 
-  header a{
-    font-size: 30px;
+
+  /*header a{
+    
     
     color: cadetblue;
     text-decoration: underline;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 70px;
-    margin: 50px 15px;
+    
     font-weight: lighter;
-    font-size: 1.5vw ;
-}
+    
+}*/
 /*header/navigation ends here*/
 
 /* hero/jumbotron  starts here*/
@@ -151,17 +168,17 @@ section h2{/* Denmark And Basses*/
     border: 30px solid rgb(40, 74, 105) ;
     display: flex;
     flex-wrap: wrap;
-    height: 1010px;
-    border: 2px solid rgb(0, 140, 255);
+    height: 1070px;
+    
     /*background-color: rgb(40, 74, 105);*/
 }
 
 
 
 #worksection{
-    width: 363px;
-    height: 1000px;
-    border: 2px solid rgb(235, 231, 25);
+    width: 335px;
+    height: 1025px;
+    border-right: 7px solid rgb(0, 0, 0);
     text-align: right;
     font-size: 35px;
     padding: 400px 40px 0 0px;
@@ -181,11 +198,13 @@ section h2{/* Denmark And Basses*/
 .box1{background-image: url(./assets/Laverinth.jpg);
     background-size: cover;
     background-image: center;
-    border: 2px solid rgb(241, 17, 17);
+    border: 7px solid rgb(38, 250, 250);
     background-color: rgb(115, 125, 134);
     height: 550px;
     width: 102%;
-    margin: auto;
+    margin: 12px;
+    
+
 }
 
 
@@ -195,9 +214,8 @@ section h2{/* Denmark And Basses*/
     margin-top: 25px;
     border: 7px solid rgb(38, 250, 250);
     height: 450px;
-    
     background-color: rgb(40, 74, 105);
-    margin: 0px;
+    margin: 12px;
 }  
 
 .box3{
@@ -206,7 +224,7 @@ section h2{/* Denmark And Basses*/
     border: 7px solid rgb(0, 0, 0);
     height:455px;
     width: 68.6%;
-    border: 5px solid rgb(6, 206, 206);
+    border: 7px solid rgb(6, 206, 206);
     margin: 10px;
 }
   
@@ -220,6 +238,7 @@ section h2{/* Denmark And Basses*/
     background-color: rgb(6, 206, 206);
     font-size: 20px;
     justify-content: left;
+    padding-top: 40px ;
     
     
  }
@@ -233,12 +252,17 @@ section h2{/* Denmark And Basses*/
     font-size: 20px;
     display: flexbox;
     line-height: 1.5;
+    padding-top: 20px;
  }  
  main .p{ 
     font-size: 25px;
     font-weight: lighter;
-    color: rgb(6, 11, 88);;
-    
+    color: rgb(6, 11, 88);
+}
+main a{
+    text-decoration: none;
+    color:  rgb(6,11,88);
+
 }
 
 
@@ -295,13 +319,18 @@ text-align: right;
     justify-content: space-evenly;
     font-weight: bolder;
     text-decoration: underline;
+    
     color: black;
     float: right;
     
  }
 footer div a{
-
+font-size: 17px;
 color: black;
+text-decoration: underline;
+text-decoration-thickness: 1px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bold;
 }
 
 .footer:hover{
