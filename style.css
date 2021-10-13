@@ -1,0 +1,319 @@
+  *{
+      box-sizing: border-box;
+      margin: 0px;
+      
+  }
+  body{
+      color: rgb(29, 29, 54);
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      background-color: rgb(40, 74, 105);
+  }
+/* header starts here*/
+  header{
+    padding: 10px 40px 20px 0;
+    justify-content: space-between;
+    background-color: rgb(33, 32, 44);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 200px;
+}
+ 
+li{    /*links position in navigation position*/
+    display: inline-block;
+    padding: 0px 30px;
+    
+
+}
+
+ a:hover{
+color:  rgb(197, 186, 84);
+transition: 0.20s;
+
+}
+
+header nav{
+    color: cadetblue;
+    margin-left: 0px  0px;
+}
+header nav ul{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration: underline;
+   text-decoration-thickness: 5px;
+}
+header h1{
+    border-style: solid;
+    
+
+    padding: 0px 20px 25px 0px;
+    font-weight: bold;
+    font-size:  55px;
+    margin-top: 50;
+    color: rgb(29, 29, 54);
+    text-decoration: none;
+    background-color: aqua;
+    
+}
+
+header li a {
+    margin: 0 15px;
+    font-weight: lighter;
+    font-size: 1.5vw ;
+  }
+
+  header a{
+    font-size: 30px;
+    
+    color: cadetblue;
+    text-decoration: underline;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    margin: 50px 15px;
+    font-weight: lighter;
+    font-size: 1.5vw ;
+}
+/*header/navigation ends here*/
+
+/* hero/jumbotron  starts here*/
+
+
+
+.hero{
+    background-image: url("./assets/dorinel-panaite-l2PqLSd8YNA-unsplash.jpg");
+    padding: 50px;
+    height: 260px;
+    background-size: cover;
+    background-position:center;
+    margin-top: 1px;
+}
+
+section h2{/* Denmark And Basses*/
+
+   
+    color: rgb(29, 29, 54) ;
+    padding: 10px;
+    background-color: aqua;
+    width: 250px;
+    height: auto;
+    float: right;
+    margin: 112px 20px 20px 0px;
+    text-align: right;
+}
+/* hero/jumbotron  ends here*/
+
+
+
+/*body starts here*/
+#aboutmesection{
+       width: 100%;
+    height: 260px;
+    text-align: right;
+    font-size: 35px;
+    flex-wrap: wrap;
+    display: flex;text-align: center;
+    margin-top: 50px;
+   
+}
+
+#about-me{
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+    height:230px;
+    width: 365px ;
+    border-right: 7px solid black;
+    font-size: 35px;
+    padding-right: 30px;
+    background-color: rgb(40, 74, 105);
+    color: black;
+}
+
+
+
+#paragraph{
+    width: 1120px;
+    height: 230px;
+    text-align: left;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    color: rgb(144, 182, 133);
+    
+   
+   
+}
+.mainbox{
+
+    
+    border: 2px solid rgb(40, 74, 105) ;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 400px;
+    height: 1410px;
+    background-color: rgb(40, 74, 105);
+}    
+
+
+.box1{
+    align-content: space-around ;
+    background-color: rgb(51, 66, 80);
+    height: 1370px;
+    width: 70%;
+    margin-left: 50px;
+}
+
+.box2{
+    width: 98.6%;
+    margin-top: 25px;
+    border: 7px solid rgb(6, 206, 206);
+    background-image: url(./assets/Laverinth.jpg);
+    background-image: center;
+    height: 885px;
+    background-size: cover;
+    background-color: rgb(40, 74, 105);
+    margin: 10px;
+}  
+
+.box3{
+    background-image: url(assets/hero-bg.jpg);
+   
+    border: 7px solid rgb(0, 0, 0);
+    height:455px;
+    width: 98.6%;
+    border: 5px solid rgb(6, 206, 206);
+    margin: 10px;
+}
+  
+
+.smallbox{
+    flex-wrap: wrap;
+    display: flex;
+    width: 200px;
+    height: 120px;
+    border-left: 1px solid rgb(6, 206, 206);
+    margin-top: 700px;
+    background-color: rgb(6, 206, 206);
+    font-size: 20px;
+    justify-content: left;
+    line-height: 1.5;
+    position: absolute;
+ }
+ .smallbox2{
+    flex-wrap: wrap;
+    display: flex;
+    width: 200px;
+    height: 120px;
+    border-left: 1px solid rgb(6, 206, 206);
+    margin-top: 270px;
+    background-color: rgb(6, 206, 206);
+    font-size: 20px;
+    justify-content: left;
+    line-height: 1.5;
+    position: absolute;
+ }
+ .p{ 
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(60, 59, 136);;
+    
+}
+#worksection{
+    width: 363px;
+    height: 1370px;
+    border-right: 7px solid rgb(0, 0, 0);
+    display: flex;
+    font-size: 35px;
+    justify-content: right;
+    padding: 400px 15px 0 0px;
+    justify-items: right;
+    background-color: rgb(40, 74, 105);
+   
+    color: black;
+    
+} 
+
+
+.section{
+    background-color: rgb(40, 74, 105);
+   border: 5px solid rgb(22, 20, 20);
+    height: 300px;
+    width: 100%;
+    display: flexbox;
+    flex-wrap: wrap;
+    min-width: 200px;
+    margin-top: -43px;
+    align-content: space-between;
+   
+}
+ 
+/*body ends here*/
+
+ 
+/*footer starts here*/
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:right;
+    align-items: center;
+    min-width: 300px;
+    
+    width: 100%;
+    height:210px;
+}
+
+
+#contact-me{
+text-align: right;
+
+    height: 155px;
+    width: 332px;
+    border-right: 7px solid black;
+    font-size: 50px;
+    padding-right: 40px;
+    margin-top: 20px;
+    margin-right: 12px;
+    float: left;
+    color: black;
+}
+
+#info-footer{
+    flex-wrap: wrap;
+    display: flex;
+    width: 80.2%;
+    height: 190px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: black;
+    float: right;
+    
+ }
+footer div a{
+
+color: black;
+}
+
+.footer:hover{
+
+    color: light rgb(222, 228, 222);
+}
+/*
+footer ul li a{
+margin: 50px;
+    font-weight: lighter;
+    font-size: 1.5vw ;
+
+} */
+
+
+/*foter ends here*/
+
+
+  
