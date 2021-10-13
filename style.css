@@ -2,8 +2,12 @@
       box-sizing: border-box;
       margin: 0px;
       
+      min-width: 300px;
   }
   body{
+      display: flex;
+      flex-wrap: wrap;
+      min-width: 50px;
       color: rgb(29, 29, 54);
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       background-color: rgb(40, 74, 105);
@@ -22,8 +26,6 @@
 li{    /*links position in navigation position*/
     display: inline-block;
     padding: 0px 30px;
-    
-
 }
 
  a:hover{
@@ -31,13 +33,9 @@ color:  rgb(197, 186, 84);
 transition: 0.20s;
 
 }
-
-header nav{
-    color: cadetblue;
-    margin-left: 0px  0px;
-}
 header nav ul{
-
+color: cadetblue;
+    margin-left: 0px  0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -48,8 +46,6 @@ header nav ul{
 }
 header h1{
     border-style: solid;
-    
-
     padding: 0px 20px 25px 0px;
     font-weight: bold;
     font-size:  55px;
@@ -57,7 +53,6 @@ header h1{
     color: rgb(29, 29, 54);
     text-decoration: none;
     background-color: aqua;
-    
 }
 
 header li a {
@@ -91,6 +86,7 @@ header li a {
     background-size: cover;
     background-position:center;
     margin-top: 1px;
+    width: 100%;
 }
 
 section h2{/* Denmark And Basses*/
@@ -111,7 +107,7 @@ section h2{/* Denmark And Basses*/
 
 /*body starts here*/
 #aboutmesection{
-       width: 100%;
+    width: 100%;
     height: 260px;
     text-align: right;
     font-size: 35px;
@@ -136,48 +132,72 @@ section h2{/* Denmark And Basses*/
 
 
 #paragraph{
-    width: 1120px;
-    height: 230px;
+    width: 700px;
+    height: 100px;
     text-align: left;
     padding-left: 20px;
     display: flex;
     flex-wrap: wrap;
     font-size: 25px;
     color: rgb(144, 182, 133);
+    justify-content: center;
     
    
    
 }
 .mainbox{
-
     
-    border: 2px solid rgb(40, 74, 105) ;
+    width: 100%;
+    border: 30px solid rgb(40, 74, 105) ;
     display: flex;
     flex-wrap: wrap;
-    min-width: 400px;
-    height: 1410px;
-    background-color: rgb(40, 74, 105);
-}    
-
-
-.box1{
-    align-content: space-around ;
-    background-color: rgb(51, 66, 80);
-    height: 1370px;
-    width: 70%;
-    margin-left: 50px;
+    height: 1010px;
+    border: 2px solid rgb(0, 140, 255);
+    /*background-color: rgb(40, 74, 105);*/
 }
 
-.box2{
-    width: 98.6%;
-    margin-top: 25px;
-    border: 7px solid rgb(6, 206, 206);
-    background-image: url(./assets/Laverinth.jpg);
-    background-image: center;
-    height: 885px;
-    background-size: cover;
+
+
+#worksection{
+    width: 363px;
+    height: 1000px;
+    border: 2px solid rgb(235, 231, 25);
+    text-align: right;
+    font-size: 35px;
+    padding: 400px 40px 0 0px;
+    
     background-color: rgb(40, 74, 105);
-    margin: 10px;
+   
+    color: black;
+    
+} 
+#container{
+    justify-self: right;
+    border-color: 2px solid rgb(199, 4, 4);
+    width:73%;
+    height: 10px;
+    display: flexbox;
+}    
+.box1{background-image: url(./assets/Laverinth.jpg);
+    background-size: cover;
+    background-image: center;
+    border: 2px solid rgb(241, 17, 17);
+    background-color: rgb(115, 125, 134);
+    height: 550px;
+    width: 102%;
+    margin: auto;
+}
+
+
+.box2{
+    background-image: url(assets/hero-bg.jpg);
+    width: 102%;
+    margin-top: 25px;
+    border: 7px solid rgb(38, 250, 250);
+    height: 450px;
+    
+    background-color: rgb(40, 74, 105);
+    margin: 0px;
 }  
 
 .box3{
@@ -185,58 +205,42 @@ section h2{/* Denmark And Basses*/
    
     border: 7px solid rgb(0, 0, 0);
     height:455px;
-    width: 98.6%;
+    width: 68.6%;
     border: 5px solid rgb(6, 206, 206);
     margin: 10px;
 }
   
 
-.smallbox{
-    flex-wrap: wrap;
+.smallbox1{
     display: flex;
     width: 200px;
     height: 120px;
     border-left: 1px solid rgb(6, 206, 206);
-    margin-top: 700px;
+    margin-top: 350px;
     background-color: rgb(6, 206, 206);
     font-size: 20px;
     justify-content: left;
-    line-height: 1.5;
-    position: absolute;
+    
+    
  }
  .smallbox2{
-    flex-wrap: wrap;
-    display: flex;
+    
     width: 200px;
     height: 120px;
     border-left: 1px solid rgb(6, 206, 206);
-    margin-top: 270px;
+    margin-top: 250px;
     background-color: rgb(6, 206, 206);
     font-size: 20px;
-    justify-content: left;
+    display: flexbox;
     line-height: 1.5;
-    position: absolute;
- }
- .p{ 
+ }  
+ main .p{ 
     font-size: 25px;
     font-weight: lighter;
-    color: rgb(60, 59, 136);;
+    color: rgb(6, 11, 88);;
     
 }
-#worksection{
-    width: 363px;
-    height: 1370px;
-    border-right: 7px solid rgb(0, 0, 0);
-    display: flex;
-    font-size: 35px;
-    justify-content: right;
-    padding: 400px 15px 0 0px;
-    justify-items: right;
-    background-color: rgb(40, 74, 105);
-   
-    color: black;
-    
-} 
+
 
 
 .section{
@@ -272,7 +276,7 @@ section h2{/* Denmark And Basses*/
 text-align: right;
 
     height: 155px;
-    width: 332px;
+    width: 232px;
     border-right: 7px solid black;
     font-size: 50px;
     padding-right: 40px;
@@ -285,7 +289,7 @@ text-align: right;
 #info-footer{
     flex-wrap: wrap;
     display: flex;
-    width: 80.2%;
+    width: 73.7%;
     height: 190px;
     align-items: center;
     justify-content: space-evenly;
