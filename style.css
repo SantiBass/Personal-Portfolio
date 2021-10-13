@@ -14,14 +14,14 @@
   }
 /* header starts here*/
   header{
-    padding: 10px 40px 20px 0;
-    
-    background-color: rgb(33, 32, 44);
-    display: flex;
-    padding-top:50px;
-    
-    width: 100%;
-    height: 200px;
+        padding: 10px 40px 20px 0;
+        
+        background-color: rgb(33, 32, 44);
+        display: flex;
+        padding-top:50px;
+        
+        width: 100%;
+        height: 200px;
 
 }
  
@@ -30,39 +30,19 @@ li{    /*links position in navigation position*/
    
    display: inline;
    margin-left: 150px;
-   
-   
-
-   
 }
+a:hover{
 
- a:hover{
-color:  rgb(197, 186, 84);
-transition: 0.20s;
-
-
-
+    color:  rgb(197, 186, 84);
+    transition: 0.20s;
 }
  a{
-    
     width:800px;
-
-    
-    
-    
-    
-    
     list-style: none;
-    
-    
-    
     font-size: 1.5vw ;
     text-decoration: underline;
     text-decoration-thickness: 5px;
-     color: cadetblue;
-    
-    
-    
+    color: cadetblue;
     font-weight: lighter;
 
 }  
@@ -76,26 +56,6 @@ header h1{
     text-decoration: none;
     background-color: aqua;
 }
-
-
-
-  /*header a{
-    
-    
-    color: cadetblue;
-    text-decoration: underline;
-    display: flex;
-    flex-wrap: wrap;
-    
-    font-weight: lighter;
-    
-}*/
-/*header/navigation ends here*/
-
-/* hero/jumbotron  starts here*/
-
-
-
 .hero{
     background-image: url("./assets/dorinel-panaite-l2PqLSd8YNA-unsplash.jpg");
     padding: 50px;
@@ -107,8 +67,6 @@ header h1{
 }
 
 section h2{/* Denmark And Basses*/
-
-   
     color: rgb(29, 29, 54) ;
     padding: 10px;
     background-color: aqua;
@@ -131,9 +89,7 @@ section h2{/* Denmark And Basses*/
     flex-wrap: wrap;
     display: flex;text-align: center;
     margin-top: 50px;
-   
-}
-
+ }
 #about-me{
     text-align: right;
     background-color: rgb(255, 255, 255);
@@ -145,9 +101,6 @@ section h2{/* Denmark And Basses*/
     background-color: rgb(40, 74, 105);
     color: black;
 }
-
-
-
 #paragraph{
     width: 700px;
     height: 100px;
@@ -158,9 +111,6 @@ section h2{/* Denmark And Basses*/
     font-size: 25px;
     color: rgb(144, 182, 133);
     justify-content: center;
-    
-   
-   
 }
 .mainbox{
     
@@ -172,9 +122,6 @@ section h2{/* Denmark And Basses*/
     
     /*background-color: rgb(40, 74, 105);*/
 }
-
-
-
 #worksection{
     width: 335px;
     height: 1025px;
@@ -203,11 +150,7 @@ section h2{/* Denmark And Basses*/
     height: 550px;
     width: 102%;
     margin: 12px;
-    
-
 }
-
-
 .box2{
     background-image: url(assets/hero-bg.jpg);
     width: 102%;
@@ -227,8 +170,6 @@ section h2{/* Denmark And Basses*/
     border: 7px solid rgb(6, 206, 206);
     margin: 10px;
 }
-  
-
 .smallbox1{
     display: flex;
     width: 200px;
@@ -239,9 +180,7 @@ section h2{/* Denmark And Basses*/
     font-size: 20px;
     justify-content: left;
     padding-top: 40px ;
-    
-    
- }
+  }
  .smallbox2{
     
     width: 200px;
@@ -264,9 +203,6 @@ main a{
     color:  rgb(6,11,88);
 
 }
-
-
-
 .section{
     background-color: rgb(40, 74, 105);
    border: 5px solid rgb(22, 20, 20);
@@ -325,28 +261,18 @@ text-align: right;
     
  }
 footer div a{
-font-size: 17px;
-color: black;
-text-decoration: underline;
-text-decoration-thickness: 1px;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-weight: bold;
+    font-size: 17px;
+    color: black;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
 }
-
 .footer:hover{
 
     color: light rgb(222, 228, 222);
 }
-/*
-footer ul li a{
-margin: 50px;
-    font-weight: lighter;
-    font-size: 1.5vw ;
 
-} */
-
-
-/*foter ends here*/
 
 
   
