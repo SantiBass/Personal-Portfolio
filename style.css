@@ -2,80 +2,90 @@
       box-sizing: border-box;
       margin: 0px;
       
-      min-width: 300px;
+      
   }
-  body{
+  body{height: 2350px;
       display: flex;
       flex-wrap: wrap;
       min-width: 50px;
       color: rgb(29, 29, 54);
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       background-color: rgb(40, 74, 105);
+      border: 5px solid black;
   }
 /* header starts here*/
-  header{
-        padding: 10px 40px 20px 0;
-        
-        background-color: rgb(33, 32, 44);
+header{
+        padding: 0px 0px 20px 0;
+       
+        background-color: rgb(11, 11, 46);
         display: flex;
+        flex-wrap: wrap;
         padding-top:50px;
-        
         width: 100%;
-        height: 200px;
+        height: 310px;
 
 }
  
+nav{
+    align-items: flex-end;
+    width: 500x;
+    height: 200px;
+    margin-left: 700px;
+    flex-wrap: wrap;
+    
+}
 li{    /*links position in navigation position*/
     display: inline;
     margin-left: 150px;
-    
+
+  
 }
 
 a:hover{
-    padding-top: 50px;
     color:  rgb(197, 186, 84);
     transition: 0.20s;
 }
  a{
-    width:800px;
+     
     list-style: none;
     font-size: 1.5vw ;
     text-decoration: underline;
-    text-decoration-thickness: 5px;
+    text-decoration-thickness: 10px;
     color: cadetblue;
     font-weight: lighter;
-
+    justify-content: right;
+    
 }  
 header h1{
-    border-style: solid;
-    width: 370px;
-    height: 100px;
+    border: 1px solid white;
+    width: 500px;
+    height: 150px;
     font-weight: bold;
-    font-size:  50px;
+    font-size:  60px;
    
     color: rgb(29, 29, 54);
     text-decoration: none;
     background-color: aqua;
 }
-.hero{
+#hero{
     background-image: url("./assets/dorinel-panaite-l2PqLSd8YNA-unsplash.jpg");
-    padding: 50px;
-    height: 260px;
+    padding: 150px 50px 00px 0px;
+    height: 322px;
     background-size: cover;
     background-position:center;
-    margin-top: 1px;
+    border-top: 1px solid white;
     width: 100%;
 }
 
-section h2{/* coding boot camp*/
+#bootcamp {/* coding boot camp*/
     color: rgb(29, 29, 54) ;
-    padding: 8px;
+    padding: 10px;
     background-color: aqua;
-    width: 100px;
-    height: auto;
+    width: 400px;
+    height:70px;
     float: right;
-    margin: 112px 0px 20px 0px;
     text-align: center;
+    font-size: 25px;
 }
 /* hero/jumbotron  ends here*/
 
@@ -107,11 +117,10 @@ section h2{/* coding boot camp*/
     height: 100px;
     text-align: left;
     padding-left: 20px;
-    display: flex;
-    flex-wrap: wrap;
+    
     font-size: 25px;
     color: rgb(144, 182, 133);
-    justify-content: center;
+    
 }
 .mainbox{
     
@@ -149,12 +158,12 @@ section h2{/* coding boot camp*/
     border: 7px solid rgb(6, 206, 206);
     background-color: rgb(115, 125, 134);
     height: 550px;
-    width: 102%;
+    width: 98%;
     margin: 12px;
 }
 .box2{
     background-image: url(assets/hero-bg.jpg);
-    width: 102%;
+    width: 98%;
     margin-top: 25px;
     border: 7px solid rgb(6, 206, 206);
     height: 450px;
@@ -164,8 +173,7 @@ section h2{/* coding boot camp*/
 
 .box3{
     background-image: url(assets/hero-bg.jpg);
-   
-    border: 7px solid rgb(0, 0, 0);
+    border: 7px solid rgb(6, 206, 206);
     height:455px;
     width: 68.6%;
     border: 7px solid rgb(6, 206, 206);
@@ -175,18 +183,19 @@ section h2{/* coding boot camp*/
     display: flex;
     width: 200px;
     height: 120px;
-    border-left: 1px solid rgb(6, 206, 206);
+    border-left: 10px solid rgb(6, 206, 206);
     margin-top: 350px;
     background-color: rgb(6, 206, 206);
     font-size: 20px;
     justify-content: left;
-    padding-top: 40px ;
+    padding-top: 20px ;
+    
   }
  .smallbox2{
     
     width: 200px;
     height: 120px;
-    border-left: 1px solid rgb(6, 206, 206);
+    border-left: 6px solid rgb(6, 206, 206);
     margin-top: 250px;
     background-color: rgb(6, 206, 206);
     font-size: 20px;
@@ -224,41 +233,36 @@ main a{
 #footer{
     display: flex;
     flex-wrap: wrap;
-    justify-content:right;
     align-items: center;
-    min-width: 300px;
-    
     width: 100%;
-    height:210px;
+    height:350px;
+    float: left;
 }
 
 
 #contact-me{
-text-align: right;
-
-    height: 155px;
-    width: 232px;
+    
+    text-align: right;
+    height: 300px;
+    width: 365px;
     border-right: 7px solid black;
     font-size: 50px;
-    padding-right: 40px;
-    margin-top: 20px;
-    margin-right: 12px;
-    float: left;
+    padding: 50px 50px 0px 150px;
     color: black;
 }
 
 #info-footer{
+    
+    display: flex; 
     flex-wrap: wrap;
-    display: flex;
-    width: 72.8%;
-    height: 190px;
+    width:80.5%;
+    height: 300px;
     align-items: center;
     justify-content: space-evenly;
     font-weight: bolder;
     text-decoration: underline;
-    
     color: black;
-    float: right;
+   
     
  }
 footer div a{
@@ -270,6 +274,7 @@ footer div a{
     font-weight: bold;
 }
 .footer:hover{
+
 
     color: light rgb(222, 228, 222);
 }
