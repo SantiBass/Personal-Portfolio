@@ -6,5 +6,8 @@ This project has the intention to provide a sense of grow as new concepts are le
 hyper links while hover over them are few features displayed in this project. VS Code software Version: 1.60.2 was used in the development of this
 project along with Google Chrome. Google Chrome Developer Tool is a powerful tool that was used in the process to 
 achieve the final product.
+I included a group proyect here.
 
+https://github.com/SantiBass/Personal-Portfolio
 https://santibass.github.io/Personal-Portfolio/
+
