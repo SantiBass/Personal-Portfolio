@@ -7,4 +7,8 @@ hyper links while hover over them are few features displayed in this project. VS
 project along with Google Chrome. Google Chrome Developer Tool is a powerful tool that was used in the process to 
 achieve the final product.
 
+
 https://santibass.github.io/Personal-Portfolio/
+
+
+SYNT-DOCTRINA.png
