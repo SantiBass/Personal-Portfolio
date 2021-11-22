@@ -18,7 +18,6 @@ This is a learning platform application, which works well based on Web API. When
 
  (https://user-images.githubusercontent.com/90415841/142811044-ba121ac7-10ac-49ba-ae2e-6b8c45f1544f.png)
 
-
-https://itsjustpeachy.github.io/SYNT-Doctrina/![SYNT-DOCTRINA]
+![SYNT-DOCTRINA.png](https://itsjustpeachy.github.io/SYNT-Doctrina/)
 
 
