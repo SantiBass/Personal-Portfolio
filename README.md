@@ -6,9 +6,19 @@ This project has the intention to provide a sense of grow as new concepts are le
 hyper links while hover over them are few features displayed in this project. VS Code software Version: 1.60.2 was used in the development of this
 project along with Google Chrome. Google Chrome Developer Tool is a powerful tool that was used in the process to 
 achieve the final product.
-I included a group proyect here.
+
 
 https://github.com/SantiBass/Personal-Portfolio
 https://santibass.github.io/Personal-Portfolio/
 
+
+Group Project SYNT DOCTRINA.
+
+This is a learning platform application, which works well based on Web API. When a user opens the application , the user is presented three different categories. These categories are as follows: WORK, PLAY, and, SCHOOL. By clicking and choosing one of these three categories, the user is lead to a subcategory that contains options offered to the user to narrow down the user’s search with more details. By clicking one of these, the user can see different courses based on the API’s search result. This is a simple but effective application that shows what API, JavaScript, CSS and HTML can achieve when they work together.
+
  
+ 
+(https://user-images.githubusercontent.com/90415841/142810608-9845b63e-2982-485c-96a9-157be28bb11f.png) 
+https://itsjustpeachy.github.io/SYNT-Doctrina/![SYNT-DOCTRINA]
+
+
