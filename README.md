@@ -16,8 +16,7 @@ Group Project SYNT DOCTRINA.
 
 This is a learning platform application, which works well based on Web API. When a user opens the application , the user is presented three different categories. These categories are as follows: WORK, PLAY, and, SCHOOL. By clicking and choosing one of these three categories, the user is lead to a subcategory that contains options offered to the user to narrow down the user’s search with more details. By clicking one of these, the user can see different courses based on the API’s search result. This is a simple but effective application that shows what API, JavaScript, CSS and HTML can achieve when they work together.
 
- 
- ![Uploading SYNT-DOCTRINA.png…]
+ (https://user-images.githubusercontent.com/90415841/142811044-ba121ac7-10ac-49ba-ae2e-6b8c45f1544f.png)
 
 
 https://itsjustpeachy.github.io/SYNT-Doctrina/![SYNT-DOCTRINA]
