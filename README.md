@@ -18,10 +18,12 @@ This is a learning platform application, which works well based on Web API. When
 
 
 ![Screen Shot 2021-11-21 at 10 54 24 PM](https://itsjustpeachy.github.io/SYNT-Doctrina/)
-
+![SYNTH Doctrina](https://itsjustpeachy.github.io/SYNT-Doctrina/)
 
 Group Project Barber's Chair
-Need a barber but don't know where to go? Hop on the barber's chair and find a barber that fits your needs! In this project we wanted to aim to the users the really want a good barber as soon as possible and the best in the area. We acchieved the final product by implementing MVC file structure along with some npm libreries like, sequelize, express-sessions, dotenv,handlebars, and many other libraries. You can test this application by clicking the screenshot.
+Need a barber but don't know where to go? Hop on the barber's chair and find a barber that fits your needs! In this project we wanted to aim to the users the really want a good barber as soon as possible and the best in the area. We acchieved the final product by implementing MVC file structure along with some npm libreries like, sequelize, express-sessions, dotenv,handlebars, and many other libraries. You can test this application by clicking the link below.
 
 
-![Barbers-Chair-ScreenShot](https://barbers-chair.herokuapp.com/)
+![Barbers-Chair-ScreenShot](https://user-images.githubusercontent.com/90415841/150707999-f0dd2379-3bf1-48e4-9b12-051e55df2c53.png)
+
+![Barber's Chair](https://barbers-chair.herokuapp.com/)
