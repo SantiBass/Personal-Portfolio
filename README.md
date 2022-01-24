@@ -21,7 +21,8 @@ This is a learning platform application, which works well based on Web API. When
 Githup link: https://github.com/itsjustpeachy/SYNT-Doctrina
 appication link: https://itsjustpeachy.github.io/SYNT-Doctrina/
 
-Group Project Barber's Chair
+Group Project Barber's Chair.
+Description. 
 Need a barber but don't know where to go? Hop on the barber's chair and find a barber that fits your needs! In this project we wanted to aim to the users the really want a good barber as soon as possible and the best in the area. We acchieved the final product by implementing MVC file structure along with some npm libreries like, sequelize, express-sessions, dotenv,handlebars, and many other libraries. You can test this application by clicking the link below.
 
 
