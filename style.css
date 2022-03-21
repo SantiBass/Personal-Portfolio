@@ -140,7 +140,7 @@ header h1{
     height: 10px;
     display: flexbox;
 }    
-.box1{background-image: url(./assets/Laverinth.jpg);
+.box1{background-image: url(./assets/Barber-shop.png);
     background-size: cover;
     background-image: center;
     border: 7px solid rgb(6, 206, 206);
@@ -235,7 +235,7 @@ main a{
     justify-content: space-between;
 }
 .placeholder{
-    background-image: url(assets/cotopaxi-800x533.jpg);
+    background-image: url(assets/Meme-OH-gram.png);
     background-size: cover;
     background-repeat: none;
     background-image: center;
