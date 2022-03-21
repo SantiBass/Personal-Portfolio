@@ -8,9 +8,9 @@ project along with Google Chrome. Google Chrome Developer Tool is a powerful too
 achieve the final product.
 
 
-https://github.com/SantiBass/Personal-Portfolio
+#### Repository link:https://github.com/SantiBass/Personal-Portfolio
 
-https://santibass.github.io/Personal-Portfolio/
+#### Web page link: https://santibass.github.io/Personal-Portfolio/
 
 
 Project SYNT DOCTRINA.
@@ -18,8 +18,8 @@ Project SYNT DOCTRINA.
 
 This is a learning platform application, which works well based on Web API. When a user opens the application , the user is presented three different categories. These categories are as follows: WORK, PLAY, and, SCHOOL. By clicking and choosing one of these three categories, the user is lead to a subcategory that contains options offered to the user to narrow down the user’s search with more details. By clicking one of these, the user can see different courses based on the API’s search result. This is a simple but effective application that shows what API, JavaScript, CSS and HTML can achieve when they work together.
 
-Githup link: https://github.com/itsjustpeachy/SYNT-Doctrina
-appication link: https://itsjustpeachy.github.io/SYNT-Doctrina/
+#### Github link: https://github.com/itsjustpeachy/SYNT-Doctrina
+#### Appication link: https://itsjustpeachy.github.io/SYNT-Doctrina/
 
 Project Barber's Chair.
 Description. 
@@ -27,13 +27,13 @@ Need a barber but don't know where to go? Hop on the barber's chair and find a b
 
 
 ![Barbers-Chair-ScreenShot](https://user-images.githubusercontent.com/90415841/150707999-f0dd2379-3bf1-48e4-9b12-051e55df2c53.png)
-Application link: https://barbers-chair.herokuapp.com/
-Repository's link; https://github.com/SantiBass/group-test
+#### Application link: https://barbers-chair.herokuapp.com/
+#### Repository's link; https://github.com/SantiBass/group-test
 
 Project Meme-HO-gram.
 This is a fun app to help us laught by creating memes. This meme generator allows the users to pick a desired meme and add htir own captions. Once the mem is created the user can save it or copy it to a clipboard and share it with friends, relatives, significant other, etc. This applycation is a "MERN" stact which stands for  MongoDB, Express, React, and Nodejs.
 Note: the user need to sign up or login in order to gererate a meme. Have Fun!
 Here is a screenshot of the applycation.
 ![Meme-OH-gram](https://user-images.githubusercontent.com/90415841/159207036-913fd091-a5d1-4ecb-a32c-63ecc3a2378b.png)
-Applycation link: https://meme-oh-gram.herokuapp.com/
-Link fo the repository  for this applycation: https://github.com/kimberlyamaya/meme-OH-gram
+#### Applycation link: https://meme-oh-gram.herokuapp.com/
+#### Link fo the repository  for this applycation: https://github.com/kimberlyamaya/meme-OH-gram

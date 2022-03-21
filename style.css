@@ -161,6 +161,16 @@ header h1{
     margin: 12px;
 }  
 
+#box3{
+
+  background-image: url(assets/Synth-Doctrina.png);
+  background-size: cover;
+}
+/* #box4{
+
+  background-image: url(assets/Synth-Doctrina.png);
+  background-size: cover;
+} */
 .smallbox1{
     display: flexbox;
     width: 190px;
@@ -180,6 +190,17 @@ header h1{
     margin-top: 200px;
     background-color: rgb(6, 206, 206);
     font-size: 20px;
+    display: flexbox;
+    padding-top: 10px;
+ }  
+ .smallbox3{
+    
+    width: 10vw;
+    height: 50px;
+    border-left: 6px solid rgb(6, 206, 206);
+    margin-top:100px;
+    background-color: rgb(6, 206, 206);
+    font-size: 25px;
     display: flexbox;
     padding-top: 10px;
  }  
@@ -213,8 +234,12 @@ main a{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-#placeholder{
-
+.placeholder{
+    background-image: url(assets/cotopaxi-800x533.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-image: center;
+   
 
 }
 
